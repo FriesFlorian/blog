@@ -43,6 +43,7 @@ footer
 	padding-top: 0.1px;
 	text-align: left;
 	padding-left: 150px;
+	margin-top: 50px;
 }
 
 /*style links*/
@@ -77,6 +78,7 @@ nav
 	height: 494px;
 	background-size: cover;
 	background-position: center bottom;
+	margin-top: 21.5px;
 }
 
 /*
@@ -175,24 +177,18 @@ nav
 
 .content-left
 {
-	width: 85%;
+	width: 70%;
 	display: inline-block;
 }
 
-.content-left h2
-{
-	font-family: logo;
-	font-size: 2em;
-	color:rgb(54,43,54);
-	margin-left: 20px;
-	font-weight: inherit;
-}
 
-.content-left p
+.content-left h2
 {
 	text-align: center;
 	font-family: "Oxygen";
 	font-size: 1.1em;
+	color: rgb(255,54,0);
+	font-weight: inherit;
 }
 
 .red 
@@ -300,4 +296,33 @@ nav
 a.article-tittle
 {
    text-decoration: none;
+}
+
+a.rubriquelink
+{
+	text-decoration: none !important;
+	margin-bottom: 10px;
+	font-family: logo;
+	display: flex;
+	justify-content: flex-start;
+	color: rgb(99, 99, 99);
+	font-size: 25px;
+}
+
+.space
+{
+	margin-top: 350px;
+}
+
+.links
+{
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: justify !important;
+	font-family: "Oxygen";
+}
+
+.strong 
+{
+	font-weight: lighter;
 }
